@@ -1,0 +1,88 @@
+{
+  "name": "my-v0-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.1", // Example: replace "latest" with a specific version
+    "@hookform/resolvers": "^3.3.4", // Example
+    "@paypal/react-paypal-js": "^8.3.0", // Example
+    "@radix-ui/react-accordion": "1.2.0", // Adjusted to a likely valid recent version
+    "@radix-ui/react-alert-dialog": "1.1.1", // Adjusted
+    "@radix-ui/react-aspect-ratio": "1.1.0", // Adjusted
+    "@radix-ui/react-avatar": "1.1.0", // Adjusted
+    "@radix-ui/react-checkbox": "1.1.1", // Adjusted
+    "@radix-ui/react-collapsible": "1.1.0", // Adjusted
+    "@radix-ui/react-context-menu": "2.2.1", // Adjusted
+    "@radix-ui/react-dialog": "1.1.1", // Adjusted
+    "@radix-ui/react-dropdown-menu": "2.1.1", // Adjusted
+    "@radix-ui/react-hover-card": "1.1.1", // Adjusted
+    "@radix-ui/react-label": "2.1.0", // Adjusted
+    "@radix-ui/react-menubar": "1.1.1", // Adjusted
+    "@radix-ui/react-navigation-menu": "1.2.0", // Adjusted
+    "@radix-ui/react-popover": "1.1.1", // Adjusted
+    "@radix-ui/react-progress": "1.1.0", // Adjusted
+    "@radix-ui/react-radio-group": "1.2.0", // Adjusted
+    "@radix-ui/react-scroll-area": "1.1.0", // Adjusted
+    "@radix-ui/react-select": "2.1.1", // Adjusted
+    "@radix-ui/react-separator": "1.1.0", // Adjusted
+    "@radix-ui/react-slider": "1.2.0", // Adjusted
+    "@radix-ui/react-slot": "1.1.0", // Adjusted
+    "@radix-ui/react-switch": "1.1.0", // Adjusted
+    "@radix-ui/react-tabs": "1.1.0", // Adjusted
+    "@radix-ui/react-toast": "1.2.1", // Adjusted
+    "@radix-ui/react-toggle": "1.1.0", // Adjusted
+    "@radix-ui/react-toggle-group": "1.1.0", // Adjusted
+    "@radix-ui/react-tooltip": "1.1.2", // Adjusted
+    "@stripe/react-stripe-js": "^2.7.1", // Example
+    "@stripe/stripe-js": "^3.5.0", // Example
+    "@supabase/auth-helpers-nextjs": "^0.10.0", // Example
+    "@supabase/supabase-js": "^2.43.4", // Example
+    "autoprefixer": "^10.4.19", // Keep existing specific version if it works
+    "bcryptjs": "^2.4.3", // Keep specific
+    "class-variance-authority": "^0.7.0", // Keep specific
+    "clsx": "^2.1.1", // Keep specific
+    "cmdk": "1.0.0", // Adjusted
+    "date-fns": "^3.6.0", // Example, ensure compatibility with react-day-picker
+    "embla-carousel-react": "8.1.3", // Adjusted
+    "framer-motion": "^11.2.10", // Example
+    // "fs": "latest", // fs is a core Node.js module, do not list here
+    "input-otp": "1.2.4", // Keep specific
+    "jsonwebtoken": "^9.0.2", // Keep specific
+    "lucide-react": "^0.395.0", // Adjusted
+    "next": "14.2.5", // <-- Downgraded to Next.js 14
+    "next-themes": "^0.3.0", // Adjusted
+    // "path": "latest", // path is a core Node.js module, do not list here
+    "react": "^18.2.0", // <-- Correct React 18
+    "react-day-picker": "8.10.1", // <-- Corrected version for React 18
+    "react-dom": "^18.2.0", // <-- Correct React 18
+    "react-hook-form": "^7.51.5", // Example
+    "react-resizable-panels": "^2.0.19", // Adjusted
+    "recharts": "^2.12.7", // Example
+    "sharp": "^0.33.4", // Example
+    "sonner": "^1.5.0", // Adjusted
+    "stripe": "^15.8.0", // Example
+    "swr": "^2.2.5", // Example
+    "tailwind-merge": "^2.3.0", // Adjusted
+    "tailwindcss-animate": "^1.0.7", // Keep specific
+    "uuid": "^9.0.1", // Example
+    "vaul": "^0.9.1", // Adjusted
+    "zod": "^3.23.8" // Example
+  },
+  "devDependencies": {
+    "@types/node": "^20", // Keep major version pinning
+    "@types/react": "^18", // Keep major version pinning
+    "@types/react-dom": "^18", // Keep major version pinning
+    "@types/bcryptjs": "^2.4.6", // Added type for bcryptjs
+    "@types/jsonwebtoken": "^9.0.6", // Added type for jsonwebtoken
+    "@types/uuid": "^9.0.8", // Added type for uuid
+    "postcss": "^8.4.38", // Keep specific or allow minor updates with ^
+    "tailwindcss": "^3.4.3", // Keep specific or allow minor updates with ^
+    "typescript": "^5.4.5" // Keep specific or allow minor updates with ^
+  }
+}
